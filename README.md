@@ -1,19 +1,18 @@
 # Classify-iris-flowers-using-machine-learning
-Klasyfikacja kwiatów tęczówki przy użyciu różnych algorytmów uczenia maszynowego.
-
+Classifying iris flowers using various machine learning algorithms.
 
 <p align="center">
       <img src="https://i.ibb.co/NSS0bc2/iris-2.webp" alt="Project Logo" width="746">
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Engine-PyCharm%2023-B7F352" alt="Engine">
+   <img src="https://img.shields.io/badge/IDE-PyCharm%2023-B7F352" alt="IDE">
 </p>
 
 ## About
-
-Projekt jest klasyfikacją opartą na uczeniu maszynowym przy użyciu publicznie dostępnego zbioru danych Iris składającego się ze 150 rekordów. Celem jest klasyfikacja tęczówek na podstawie ich cech, takich jak długość działki, szerokość działki, długość płatka i szerokość płatka. </br>
-W projekcie zastosowano takie modeli uczenia maszynowego:
+The project is a machine learning-based classification using the publicly available Iris dataset of 150 records. 
+The idea is to classify irises based on their features, such as plot length, plot width, petal length and petal width. </br>
+Machine learning models used:
 - **-** **`K-Nearest Neighbors (KNN)`**
 - **-** **`Support Vector Machine (SVM)`**
 - **-** **`Random Forest`**
@@ -22,31 +21,31 @@ W projekcie zastosowano takie modeli uczenia maszynowego:
 ### Libraries
 **-** **`NumPy`**, **`pandas`**, **`matplotlib`**, **`seaborn`**, **`scikit-learn`**
 
-### Przygotowanie danych
-- Dane są wczytywane z pliku "iris.csv".
-- Generowana jest macierz cech X i wektor etykiet y.
-### Wizualizacja danych
-- Tworzone są wykresy parami w celu wizualnej analizy zależności między cechami i rozkładami klas.
+### Data preparation
+- The data is loaded from the file "iris.csv".
+- A feature matrix X and a label vector y are generated.
+### Data visualization
+- Graphs are created to visually analyze the relationship between features and class distributions.
 ### K-Nearest Neighbours (KNN):
-- Model KNN jest inicjowany liczbą sąsiadów (k=2).
-- Model jest trenowany na danych treningowych.
-- Przewidywania są dokonywane na danych testowych.
-- Wyniki obejmują dokładność, raport klasyfikacji i macierz pomyłek.
+- The KNN model is initialized with the number of neighbors (k=2).
+- The model is trained on training data.
+- Predictions are made on test data.
+- Results include accuracy, classification report and confusion matrix.
 ### Maszyna wektorów nośnych (SVM):
-- Model SVM z jądrem liniowym i parametrem C=2 jest inicjowany i trenowany.
-- Przewidywania są dokonywane na danych testowych.
-- Wyniki obejmują dokładność, raport klasyfikacji i macierz pomyłek.
+- SVM model with linear kernel and parameter C=2 is initialized and trained.
+- Predictions are made on test data.
+- Results include accuracy, classification report and confusion matrix.
 ### Random Forest:
-- Model Random Forest ze 100 drzewami jest inicjowany i trenowany.
-- Przewidywania są dokonywane na danych testowych.
-- Obliczana jest ważność cech wykres ważności.
-- Wyniki obejmują dokładność, raport klasyfikacji i macierz pomyłek.
-### Analiza ważności atrybutów:
-- Wyświetlana jest ważność każdej cechy i wykreślany jest wykres ważności.
-### Walidacja krzyżowa i wyszukiwanie siatki:
-- KFold służy do przeprowadzania walidacji krzyżowej.
-- Wyszukiwanie siatki jest wykonywane dla modelu Random Forest w celu znalezienia optymalnych parametrów.
-- Wyniki walidacji krzyżowej i optymalne parametry modelu są wyprowadzane.
+- Random Forest model with 100 trees is initialized and trained.
+- Predictions are made on test data.
+- The validity of the features of the validity chart is calculated.
+- Results include accuracy, classification report and confusion matrix.
+### Attribute importance analysis:
+- The validity of each feature is displayed and a validity graph is plotted.
+### Cross-validation and grid search:
+- KFold is used to perform cross-validation.
+- A grid search is performed for the Random Forest model to find the optimal parameters.
+- Cross-validation results and optimal model parameters are derived.
 ### Przewidywanie na nowych danych:
 - Prognozy są wykonywane dla trzech nowych zestawów danych.
 ## Developers
