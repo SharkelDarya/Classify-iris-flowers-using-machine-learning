@@ -46,8 +46,8 @@ Machine learning models used:
 - KFold is used to perform cross-validation.
 - A grid search is performed for the Random Forest model to find the optimal parameters.
 - Cross-validation results and optimal model parameters are derived.
-### Przewidywanie na nowych danych:
-- Prognozy są wykonywane dla trzech nowych zestawów danych.
+### Predicting on new data:
+- Predictions are made for three new data sets.
 ## Developers
 
 - Darya Sharkel (https://github.com/SharkelDarya)
